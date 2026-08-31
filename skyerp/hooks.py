@@ -5,6 +5,8 @@ app_description = "Whitelabel ERPNEXT"
 app_email = "roshnisompura0@gmail.com"
 app_license = "mit"
 
+
+app_include_css = "/assets/skyerp/css/custom.css"
 # Apps
 # ------------------
 
