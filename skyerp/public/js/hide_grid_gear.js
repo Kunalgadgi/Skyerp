@@ -10,7 +10,7 @@
     }
 
     // Keep the gear visible for System Manager
-    if ((frappe.user_roles || []).includes("System Manager")) {
+    if ((frappe.boot?.user?.roles || frappe.user_roles || []).includes("System Manager")) {
         return;
     }
 

@@ -29,6 +29,8 @@
 			navigation.setAttribute("aria-label", __("Quick Access"));
 
 			doctypes.forEach((doctype) => {
+				// skip doctypes that are not installed / not permitted
+				if (!frappe.model.can_read(doctype)) return;
 				const link = document.createElement("a");
 				link.className = "ui-doctype-navigation-link";
 				link.href = "#";

@@ -10,7 +10,10 @@ app_include_css = [
 	"/assets/skyerp/css/custom.css",
 	"/assets/skyerp/css/doctype_navigation.css?v=6",
 ]
-app_include_js = "/assets/skyerp/js/doctype_navigation.js?v=6"
+app_include_js = [
+	"/assets/skyerp/js/doctype_navigation.js?v=6",
+	"/assets/skyerp/js/hide_grid_gear.js?v=1",
+]
 # Apps
 # ------------------
 
